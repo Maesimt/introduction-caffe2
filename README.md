@@ -43,6 +43,10 @@
 
 Dans le cadre du cours **Mise en place d'un écosystème d'IA** donné dans le programme de spécialisation en intelligence artificielle du Cégep de Sainte-foy à Québec, nous avons à réaliser un travail d'équipe sur un outil utilisé dans le domaine de l'intelligence artificielle. Notre équipe a choisi Caffe2, car nous n'avions pas encore entendu parler de ce framework de Deep Learning jusqu'à présent. Le guide d'installation qui suit est le résultat de l'exploration sur Caffe2 réalisé dans le cadre de la réalisation de ce travail d'équipe.
 
+<p align="right">
+    <a href="#table-matieres">:scroll: Aller à la table des matières</a>
+</p>
+
 <a id="histoire" />
 
 ## 2. L'histoire de Caffe2
@@ -58,6 +62,10 @@ Qu'est-ce qui a été ajouté dans la version 2:
 - Du support pour de l'entraînement distribué.
 - Testé en profondeur par Facebook.
 
+<p align="right">
+    <a href="#table-matieres">:scroll: Aller à la table des matières</a>
+</p>
+
 ### ONNX
 
 Caffe2 c’est cool ça tourne vite et sur beaucoup d'appareils, mais ce n’est pas le framework le plus populaire pour prototyper des idées. Chez facebook avant les débuts de Caffe2, ils avaient beaucoup d’équipe qui développaient dans différents frameworks et tranquillement cette hétérogénéité commençait à devenir plus dure à supporter autant du côté développement qu’aux opérations. Il était nécessaire de connaître beaucoup de frameworks pour développer et les opérations devaient optimiser les environnements de production pour les différentes nuances entre les frameworks. 
@@ -68,6 +76,10 @@ Ils se sont dit que ça serait cool de pouvoir exporter une représentation des 
 Ils ont fait des connecteurs dans plusieurs  frameworks pour réussir à faire de l'importation et l'exportation de fichiers ONNX. Maintenant, c'est beaucoup plus facile pour les différentes plateformes de supporter un format standardisé qui représente un modèle entraîné que d’optimiser pour chacun des frameworks.
 
 Aujourd'hui, la librairie Caffe2 est incluse dans le projet PyTorch.
+
+<p align="right">
+    <a href="#table-matieres">:scroll: Aller à la table des matières</a>
+</p>
 
 <a id="pre-requis" />
 
@@ -289,6 +301,10 @@ L'option 1 permet d'intégrer les librairies de Caffe2 compilés directement dan
 
 Dans ce guide, on utilise l'option 2, compiler à partir des sources. C'est intéressant parce que ce n'est pas ce qui est le plus utilisé et c'est nécessaire si vous voulez essayer des versions autres que la dernière release. Ça permet aussi de travailler avec des versions "release-candidate" avant qu'elles soient disponibles ou de travailler avec une version qui contient un correctif.
 
+<p align="right">
+    <a href="#table-matieres">:scroll: Aller à la table des matières</a>
+</p>
+
 <a id="recuperer-code-source" />
 
 ### 6.1 Récupérer le code source
@@ -345,6 +361,10 @@ caffe2@demo:~$ sudo chown -R $USER /usr/local/lib/python2.7
 caffe2@demo:~$ Sudo chown -R $USER /usr/local/bin
 ```
 
+<p align="right">
+    <a href="#table-matieres">:scroll: Aller à la table des matières</a>
+</p>
+
 <a id="verifier-installation-gpu" />
 
 ### 7.2 Tester la détection du GPU par Caffe2
@@ -362,6 +382,10 @@ CRITICAL:root:Cannot load caffe2.python. Error: No module named caffe2_pybind11_
 ```
 :warning: Attention, cette erreur est normale si vous êtes encore dans le répertoire de Pytorch.  
 Assurez-vous d'être de retour au home (~)
+
+<p align="right">
+    <a href="#table-matieres">:scroll: Aller à la table des matières</a>
+</p>
 
 <a id="installer-interface" />
 
@@ -416,6 +440,9 @@ http://<Adresse IP VM>:8888/caffe2?token=79807e161b8478910c9bc3c639ced7fbb481556
 Vous devriez voir les tutoriels officiels de Caffe2 qu'on a téléchargé plutôt. 
 ![alt text](https://github.com/Maesimt/introduction-caffe2/blob/master/jupyter.png "Jupyter web")
 
+<p align="right">
+    <a href="#table-matieres">:scroll: Aller à la table des matières</a>
+</p>
 
 <a id="conclusion" />
 
@@ -450,6 +477,10 @@ Disponible sur https://www.youtube.com/watch?v=Mvnn_Iy29es
 #### Cours du cégep Sainte-Foy
 Cours **Mise en place d'un écosystème d'IA** donné par Mikaël Swawola.
 
+<p align="right">
+    <a href="#table-matieres">:scroll: Aller à la table des matières</a>
+</p>
+
 <a id="annexe" />
 
 ## 10. Annexe
@@ -467,3 +498,7 @@ Vérifier si vous avez pydot d'installé, si ce n'est pas le cas, rouler :
 ```console
 caffe2@demo:~$ pip install pydot
 ```
+
+<p align="right">
+    <a href="#table-matieres">:scroll: Aller à la table des matières</a>
+</p>
