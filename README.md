@@ -1,4 +1,4 @@
-![alt text](https://github.com/Maesimt/caffe2-demo/blob/master/caffe2.png "Caffe2 - Official logo")
+![alt text](https://github.com/Maesimt/introduction-caffe2/blob/master/caffe2.png "Caffe2 - Official logo")
 
 # Guide de démarrage de Caffe2
 
@@ -414,7 +414,7 @@ http://<Adresse IP VM>:8888/caffe2?token=79807e161b8478910c9bc3c639ced7fbb481556
 ```
 
 Vous devriez voir les tutoriels officiels de Caffe2 qu'on a téléchargé plutôt. 
-![alt text](https://github.com/Maesimt/caffe2-demo/blob/master/jupyter.png "Jupyter web")
+![alt text](https://github.com/Maesimt/introduction-caffe2/blob/master/jupyter.png "Jupyter web")
 
 
 <a id="conclusion" />
