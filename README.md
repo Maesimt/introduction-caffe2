@@ -174,6 +174,10 @@ Note : Si utilisez la version minimale d'Ubuntu 18.04 vous devrez peut-être ins
 caffe2@demo:~$ pip install -U setuptools
 ```
 
+```
+pip install -U pip setuptools twine
+```
+
 <p align="right">
     <a href="#table-matieres">:scroll: Aller à la table des matières</a>
 </p>
